@@ -1,6 +1,6 @@
 spring:
   application:
-    name: gateway-server
+    name: dynamic-gateway
   cloud:
     nacos:
       config:
@@ -9,4 +9,4 @@ spring:
         file-extension: yml
         shared-dataids: gateway-server.yml
         refreshable-dataids: gateway-server.yml
-        group: pay
+        group: myGateway
